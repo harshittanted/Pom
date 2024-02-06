@@ -93,8 +93,6 @@
   </dependencies>
 
 	
-	
-	
 	<!--maven configuration -->
   <build>    
       <plugins>

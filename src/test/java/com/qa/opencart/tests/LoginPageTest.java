@@ -12,8 +12,6 @@ import io.qameta.allure.Epic;
 import io.qameta.allure.Story;
 
 
-@Epic("Epic - 101")
-@Story("Story - 101-1")
 public class LoginPageTest extends BaseTest {
 
 	//1.Somehow you should call reference variable of Page Class in
