@@ -129,8 +129,10 @@
 					<forkCount>3</forkCount>
 					<reuseForks>true</reuseForks>
 					<suiteXmlFiles>
-						<suiteXmlFile>src/test/resources/testrunners/testng_regression.xml</suiteXmlFile>
-<!-- 						<suiteXmlFile>${suiteXmlFile}</suiteXmlFile> -->
+					<!--This configuration is for running job normally through jenkins -->
+						<!--<suiteXmlFile>src/test/resources/testrunners/testng_regression.xml</suiteXmlFile>-->
+<!--This configuration is for running job from jenkins pipeline pipeline -->
+ 					<suiteXmlFile>${suiteXmlFile}</suiteXmlFile> 
 					</suiteXmlFiles>
 
 					<argLine>
